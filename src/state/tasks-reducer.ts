@@ -65,8 +65,6 @@ export type ActionsType =
     | ReturnType<typeof addTodolistAC>
     | ReturnType<typeof removeTodolistAC>
 
-// export type RemoveTaskType = ReturnType<typeof removeTaskAC>
-
 export const removeTaskAC = (todolistId: string, taskId: string) => {
     return {
         type: 'REMOVE-TASK',
